@@ -55,8 +55,11 @@
         {
             if (QuestionNum == 1)
             {
-                Console.WriteLine("Quina es la capital d'Estats Units")
-                Console.WriteLine();
+                Console.WriteLine("Quina es la capital d'Estats Units");
+                Console.WriteLine("a - Madrid");
+                Console.WriteLine("b - Washingtong DC");
+                Console.WriteLine("c - Madrid");
+                Console.WriteLine("d - Madrid");
             }
         }
         catch (Exception e)
