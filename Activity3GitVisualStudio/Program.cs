@@ -10,6 +10,7 @@
             ShowOptions();
             tecla = Console.ReadKey();
             Console.Clear();
+            //This is a menu that asks you to input a number to choose the topic of the questions
             switch (tecla.Key)
             {
                 case ConsoleKey.D1:
@@ -36,6 +37,7 @@
     }
     public static void ShowOptions()
     {
+        //If we didn't had this you could never see what topis are there and which one choose.
         Console.WriteLine("Choose one topic");
 
         Console.WriteLine("1- Geography");
