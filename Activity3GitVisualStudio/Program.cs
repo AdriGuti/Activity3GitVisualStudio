@@ -68,17 +68,16 @@
             MsgNextScreen("PRESS A KEY TO GO TO THE MAIN MENU");
         }
     }
-    public static void Geography()
+    public static void History()
     {
         int QuestionNum;
         Console.WriteLine("Digues un num del 1 - 5");
         QuestionNum = Convert.ToInt32(Console.ReadLine());
         try
         {
-            if (QuestionNum == 1)
+            switch (QuestionNum)
             {
-                Console.WriteLine("Quina es la capital d'Estats Units");
-                Console.WriteLine();
+                case 1: History
             }
         }
         catch (Exception e)
