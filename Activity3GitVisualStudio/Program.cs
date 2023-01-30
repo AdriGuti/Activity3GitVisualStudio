@@ -57,7 +57,7 @@
         questionNum = Convert.ToInt32(Console.ReadLine());
         try
         {
-            //All of this is the code to make the trivia work, here if you answer the num 1-5 you get a question
+            //All of this is the code to make the trivia work, here if you answer the num 1-5 you get a question.
             if (questionNum == 1)
             {
                 Console.WriteLine("Quina es la capital d'Espanya");
