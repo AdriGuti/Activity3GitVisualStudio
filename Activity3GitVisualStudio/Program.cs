@@ -16,13 +16,13 @@
                     Geography();
                     break;
 
-                /* case ConsoleKey.D2:
+                 case ConsoleKey.D2:
                      History();
                      break;
 
-                 case ConsoleKey.D3:
-                     Science();
-                     break;*/
+                /*case ConsoleKey.D3:
+                    Science();
+                    break;*/
 
                 case ConsoleKey.D0:
                     MsgNextScreen("Press any key to exit");
