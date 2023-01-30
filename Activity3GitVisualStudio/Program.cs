@@ -77,7 +77,49 @@
         {
             switch (QuestionNum)
             {
-                case 1: History
+                case 1: Console.WriteLine("Quan va ser la guerra civil española?" +
+                                           "a.1916-1919" +
+                                           "b.1926-1929" +
+                                           "c.1936-1939" +
+                                           "d.1946-1949");
+                    if (Console.ReadKey().KeyChar == 'c')
+                    {
+                        Console.WriteLine("Correcte");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrecte");
+                    }
+                    break;
+                case 2: Console.WriteLine("Quan es descobreix America?" +
+                                           "a.1423" +
+                                           "b.1926" +
+                                           "c.1492" +
+                                           "d.1203");
+                    if (Console.ReadKey().KeyChar == 'c')
+                    {
+                        Console.WriteLine("Correcte");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrecte");
+                    }
+                    break;
+                  case 3:
+                    Console.WriteLine("Qui descobreix la gravetat?" +
+                                           "a.Albert Einstein" +
+                                           "b.Arquimedes" +
+                                           "c.Newton" +
+                                           "d.Bohr");
+                    if (Console.ReadKey().KeyChar == 'c')
+                    {
+                        Console.WriteLine("Correcte");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrecte");
+                    }
+                    break;
             }
         }
         catch (Exception e)
