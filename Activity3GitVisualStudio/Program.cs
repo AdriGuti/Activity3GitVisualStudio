@@ -96,7 +96,7 @@
                                            "b.1926\n" +
                                            "c.1492\n" +
                                            "d.1203\n");
-                    if (Console.ReadLine() == "c")
+                    if (Console.ReadLine().ToLower().ToLower() == "c")
                     {
                         Console.WriteLine("Correcte");
                     }
@@ -111,7 +111,7 @@
                                            "b.Arquimedes\n" +
                                            "c.Newton\n" +
                                            "d.Bohr\n");
-                    if (Console.ReadLine() == "c")
+                    if (Console.ReadLine().ToLower() == "c")
                     {
                         Console.WriteLine("Correcte");
                     }
@@ -126,7 +126,7 @@
                                            "b.Edad mitjana\n" +
                                            "c.Paleolític\n" +
                                            "d.Edad moderna\n");
-                    if (Console.ReadLine() == "a")
+                    if (Console.ReadLine().ToLower() == "a")
                     {
                         Console.WriteLine("Correcte");
                     }
@@ -141,7 +141,7 @@
                                            "b.En el IV mileni A.C.\n" +
                                            "c.A l'any 0\n" +
                                            "d.Al 1978\n");
-                    if (Console.ReadLine() == "b")
+                    if (Console.ReadLine().ToLower() == "b")
                     {
                         Console.WriteLine("Correcte");
                     }
