@@ -77,12 +77,12 @@
         {
             switch (QuestionNum)
             {
-                case 1: Console.WriteLine("Quan va ser la guerra civil española?" +
-                                           "a.1916-1919" +
-                                           "b.1926-1929" +
-                                           "c.1936-1939" +
-                                           "d.1946-1949");
-                    if (Console.ReadKey().KeyChar == 'c')
+                case 1: Console.WriteLine("Quan va ser la guerra civil española?\n" +
+                                           "a.1916-1919\n" +
+                                           "b.1926-1929\n" +
+                                           "c.1936-1939\n" +
+                                           "d.1946-1949\n");
+                    if (Console.ReadLine() == "c")
                     {
                         Console.WriteLine("Correcte");
                     }
@@ -91,12 +91,12 @@
                         Console.WriteLine("Incorrecte");
                     }
                     break;
-                case 2: Console.WriteLine("Quan es descobreix America?" +
-                                           "a.1423" +
-                                           "b.1926" +
-                                           "c.1492" +
-                                           "d.1203");
-                    if (Console.ReadKey().KeyChar == 'c')
+                case 2: Console.WriteLine("Quan es descobreix America?\n" +
+                                           "a.1423\n" +
+                                           "b.1926\n" +
+                                           "c.1492\n" +
+                                           "d.1203\n");
+                    if (Console.ReadLine() == "c")
                     {
                         Console.WriteLine("Correcte");
                     }
@@ -106,12 +106,12 @@
                     }
                     break;
                   case 3:
-                    Console.WriteLine("Qui descobreix la gravetat?" +
-                                           "a.Albert Einstein" +
-                                           "b.Arquimedes" +
-                                           "c.Newton" +
-                                           "d.Bohr");
-                    if (Console.ReadKey().KeyChar == 'c')
+                    Console.WriteLine("Qui descobreix la gravetat?\n" +
+                                           "a.Albert Einstein\n" +
+                                           "b.Arquimedes\n" +
+                                           "c.Newton\n" +
+                                           "d.Bohr\n");
+                    if (Console.ReadLine() == "c")
                     {
                         Console.WriteLine("Correcte");
                     }
@@ -119,6 +119,38 @@
                     {
                         Console.WriteLine("Incorrecte");
                     }
+                    break;
+                case 4:
+                    Console.WriteLine("Quan apareix l'agricultura?\n" +
+                                           "a.Neolític\n" +
+                                           "b.Edad mitjana\n" +
+                                           "c.Paleolític\n" +
+                                           "d.Edad moderna\n");
+                    if (Console.ReadLine() == "a")
+                    {
+                        Console.WriteLine("Correcte");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrecte");
+                    }
+                    break;
+                case 5:
+                    Console.WriteLine("Quan s'inventa l'escriptura??\n" +
+                                           "a.Fa 20 mil anys\n" +
+                                           "b.En el IV mileni A.C.\n" +
+                                           "c.A l'any 0\n" +
+                                           "d.Al 1978\n");
+                    if (Console.ReadLine() == "b")
+                    {
+                        Console.WriteLine("Correcte");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrecte");
+                    }
+                    break;
+                default:
                     break;
             }
         }
