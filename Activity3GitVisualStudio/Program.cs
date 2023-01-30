@@ -55,7 +55,29 @@
         {
             if (QuestionNum == 1)
             {
-                Console.WriteLine("Quina es la capital d'Estats Units")
+                Console.WriteLine("Quina es la capital d'Estats Units");
+                Console.WriteLine();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            MsgNextScreen("PRESS A KEY TO GO TO THE MAIN MENU");
+        }
+    }
+    public static void Geography()
+    {
+        int QuestionNum;
+        Console.WriteLine("Digues un num del 1 - 5");
+        QuestionNum = Convert.ToInt32(Console.ReadLine());
+        try
+        {
+            if (QuestionNum == 1)
+            {
+                Console.WriteLine("Quina es la capital d'Estats Units");
                 Console.WriteLine();
             }
         }
