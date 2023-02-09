@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
         //prova de push
-        //Exemple branques que es separan Canvi en el main
+        //Conflictes resolts. Merge de adri into main
         ConsoleKeyInfo tecla;
         do
         {
