@@ -3,6 +3,7 @@
     private static void Main(string[] args)
     {
         //prova de push
+        //Exemple de Branques que es separan. Canvi a la branca de adri
         ConsoleKeyInfo tecla;
         do
         {
