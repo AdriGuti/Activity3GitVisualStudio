@@ -3,6 +3,7 @@
     private static void Main(string[] args)
     {
         //prova de push
+        //Exemple branques que es separan Canvi en el main
         ConsoleKeyInfo tecla;
         do
         {
