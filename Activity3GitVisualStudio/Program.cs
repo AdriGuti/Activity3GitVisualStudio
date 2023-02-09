@@ -4,6 +4,7 @@
     {
         //prova de push
         //Conflictes resolts. Merge de adri into main
+        //Exemple de que no es separan Canvia a ADRI
         ConsoleKeyInfo tecla;
         do
         {
